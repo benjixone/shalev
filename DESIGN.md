@@ -123,6 +123,6 @@ photographs of Shalev projects, and must not be captioned as such.
 - Alon Shalvi's bio line and the absence of his photo: needs his sign-off
   and a portrait.
 - Form endpoint not set (`js/site.js`), so nothing is delivered yet.
-- No domain decided. The repository is `benjixone/shalev`.
+- Domain: shalevgroup.com (Namecheap, 2026-09-29). Hosting: GitHub Pages, see GO-LIVE.md. Pages must be switched on once by an admin.
 - The Cal.com link and the fee ladder left the page in v2; both can come
   back on an inner page if Ben wants them.

@@ -66,8 +66,15 @@ pipeline, the Cal.com link, the fee ladder. Nothing on the page claims a
 project the group has not done; the images are labeled as illustrations
 in DESIGN.md and are generic scenes.
 
+## Domain and hosting
+
+shalevgroup.com, bought at Namecheap on 2026-09-29. Hosting is GitHub Pages
+from this repository's `main` branch; the steps, DNS records and checks
+are in [GO-LIVE.md](GO-LIVE.md). Hero title since 2026-09-29: "We turn
+waste into value." (option 3 of the finalist list, pending Alon's view).
+
 ## Open
 
-Alon's sign-off on his bio and a portrait; the domain; the form endpoint;
+Alon's sign-off on his bio and a portrait; the form endpoint;
 whether the fee ladder is Shalev's; whether the MAPM and Werkit names may
 appear (they do now, as company names only).
