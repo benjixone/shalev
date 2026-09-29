@@ -68,8 +68,9 @@ in DESIGN.md and are generic scenes.
 
 ## Domain and hosting
 
-shalevgroup.com, bought at Namecheap on 2026-09-29. Hosting is GitHub Pages
-from this repository's `main` branch; the steps, DNS records and checks
+shalevgroup.com, bought at Namecheap on 2026-09-29. Hosting is Cloudflare Pages
+connected to this repository's `main` branch, with DNS on Cloudflare and
+registration kept at Namecheap; the steps, DNS records and checks
 are in [GO-LIVE.md](GO-LIVE.md). Hero title since 2026-09-29: "We turn
 waste into value." (option 3 of the finalist list, pending Alon's view).
 

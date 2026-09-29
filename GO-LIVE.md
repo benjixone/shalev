@@ -1,54 +1,68 @@
-# Go live: shalevgroup.com
+# Go live: shalevgroup.com on Cloudflare Pages
 
-Domain: shalevgroup.com, registered at Namecheap on 2026-09-29 (order 215406643).
-Host: GitHub Pages, served from the `main` branch root of `benjixone/shalev`.
-The `CNAME` file in this repository sets the custom domain once Pages is on.
+Domain: shalevgroup.com, registered at Namecheap on 2026-09-29 (order
+215406643). Registration stays at Namecheap. DNS moves to Cloudflare,
+because Cloudflare Pages only serves an apex domain from a zone on
+Cloudflare DNS. Hosting: Cloudflare Pages, connected to this repository,
+production branch `main`, no build step, output directory `/`.
 
-## 1. Turn Pages on (once, needs repo admin)
+Files this repository already carries for Pages: `_headers` (cache and
+security headers) and `_redirects` (www to apex). Nothing else is needed.
 
-Either in the browser: repository Settings, Pages, Source "Deploy from a
-branch", branch `main`, folder `/ (root)`, Save. Or from a terminal with
-the GitHub CLI logged in as benjixone:
+## 1. Create the Pages project (Cloudflare dashboard or wrangler)
 
-    gh api -X POST repos/benjixone/shalev/pages \
-      -f build_type=legacy -f 'source[branch]=main' -f 'source[path]=/'
+Dashboard: Workers & Pages, Create, Pages, Connect to Git, pick
+`benjixone/shalev`, production branch `main`, framework preset None, build
+command empty, build output directory `/`, Save and Deploy. The project
+name should be `shalevgroup` so the preview URL reads shalevgroup.pages.dev.
 
-Pages reads `CNAME` and sets the custom domain to shalevgroup.com by itself.
-Check with:
+Or from a terminal (direct upload, no Git connection):
 
-    gh api repos/benjixone/shalev/pages
+    npx wrangler login
+    npx wrangler pages project create shalevgroup --production-branch main
+    npx wrangler pages deploy . --project-name shalevgroup
 
-## 2. Point the domain at GitHub (Namecheap, Advanced DNS)
+Check the preview at https://shalevgroup.pages.dev before touching DNS.
 
-Delete the parking records Namecheap adds by default, then add:
+## 2. Add the zone to Cloudflare
 
-| Type  | Host | Value                    | TTL       |
-|-------|------|--------------------------|-----------|
-| A     | @    | 185.199.108.153          | Automatic |
-| A     | @    | 185.199.109.153          | Automatic |
-| A     | @    | 185.199.110.153          | Automatic |
-| A     | @    | 185.199.111.153          | Automatic |
-| CNAME | www  | benjixone.github.io.     | Automatic |
+Cloudflare dashboard, Add a domain, `shalevgroup.com`, Free plan. Cloudflare
+answers with two nameservers (they look like `ada.ns.cloudflare.com` and
+`kip.ns.cloudflare.com`; use the two it actually gives). Skip the DNS
+import, or delete any parking records it imports.
 
-## 3. HTTPS (after DNS resolves, usually under an hour)
+## 3. Point Namecheap at Cloudflare
 
-    gh api -X PUT repos/benjixone/shalev/pages -F https_enforced=true
+Namecheap, Domain List, shalevgroup.com, Manage, Nameservers: choose
+"Custom DNS" and enter the two Cloudflare nameservers. Save. Propagation
+usually takes minutes, sometimes up to 24 hours. The Cloudflare overview
+page says "Active" when it is done.
 
-Or tick "Enforce HTTPS" on the Pages settings page once the certificate
-shows as issued.
+## 4. Attach the domain to the Pages project
 
-## 4. Check
+Workers & Pages, the `shalevgroup` project, Custom domains, Set up a custom
+domain: `shalevgroup.com`, then again `www.shalevgroup.com`. Cloudflare
+creates the DNS records itself (CNAME to shalevgroup.pages.dev, proxied,
+flattened at the apex) and issues the certificate. `_redirects` then sends
+www to the apex.
+
+## 5. Check
 
     curl -sI https://shalevgroup.com | head -3
     curl -sI https://www.shalevgroup.com | head -3
 
-Both should answer 200 (www redirects to the apex). The page title is
-"Shalev Group" and the hero reads "We turn waste into value."
+Apex answers 200; www answers 301 to the apex. Title "Shalev Group", hero
+"We turn waste into value."
 
-## Why no workflow
+## After go-live
 
-A first attempt used a GitHub Actions workflow to enable Pages from the
-push itself. The Actions token cannot create a Pages site ("Resource not
-accessible by integration"), so step 1 has to be done once by an admin.
-Branch deployment needs no workflow after that: every push to `main` is
-live within a minute or two.
+Every push to `main` deploys within a minute or two (Git connection) or
+needs `npx wrangler pages deploy .` (direct upload). Keep SSL/TLS mode at
+"Full" or "Full (strict)" in the Cloudflare zone.
+
+## Why not GitHub Pages
+
+A first attempt used GitHub Pages. Enabling it needs a repository admin
+click that no automation here could make, and Ben asked for Cloudflare.
+Cloudflare Pages also gives the CDN, the certificate and the www redirect
+without extra steps.
