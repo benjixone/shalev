@@ -39,7 +39,31 @@ across energy, waste, digital growth and land, between Israel, Europe and
 Africa; qualifies both sides before anyone meets; puts terms in writing
 before introductions; is paid when it closes.
 
-## What the page contains (v2, 2026-09-29)
+## What the page contains (v3, 2026-09-29, industry structure)
+
+Ben shared his waste-to-value research pack (deal-side companies, tyre
+pyrolysis suppliers, buyers and policy across Australia, MENA, India,
+Indonesia, Israel and Turkey, plus medical and electronic waste and the
+claims, licences and marketing offers) and asked for the copy and
+structure to fit the industry. The page now reads as a waste-to-value
+operating group: hero lead names tyres, plastics and landfill streams;
+who / scope / values speak of feedstock, technology, site, capital,
+tonnes, permits and offtake; mission and vision follow; a streams band
+lists what comes in (end-of-life and mining tyres, plastics and RDF,
+landfill and legacy waste, medical and electronic waste) and what goes
+out (tyre-derived fuel and pyrolysis oil, recovered carbon black, steel,
+biochar, energy and syngas, carbon credits); four divisions (tyre and
+plastic pyrolysis; cities and landfills; land and biochar; governments
+and capital); a markets band (Europe, MENA, Australia, India and
+Indonesia, Israel and Turkey) framed by the regulatory drivers in the
+pack (export bans, landfill levies, stewardship schemes, producer
+responsibility); how we work in industry terms; the gate addressed to
+feedstock owners, technology suppliers, site partners and buyers. No
+company, supplier, buyer or figure from the pack appears on the page.
+The digital growth division left the cards; Golden Partners stays as a
+footer link.
+
+## What the page contained (v2, 2026-09-29)
 
 Nav over a photographic hero (one mission line, "Apply to work with us"),
 who we are / our scope / our values, a photo band, mission and vision, four

@@ -133,6 +133,18 @@ three principles. Mission: "Bring the project, the partner and the capital
 together. Then see it through." Vision: "Cleaner cities, stronger markets,
 and value that stays where it is made."
 
+### Industry pass (v3, 2026-09-29)
+
+Ben's research pack set the register: tyre and plastic pyrolysis, landfill
+and legacy waste, medical and electronic waste; outputs of tyre-derived
+fuel, pyrolysis oil, recovered carbon black, steel, biochar, syngas and
+carbon credits; markets defined by regulation. Two sections were added:
+Streams (an In card on Surface and an Out card on Tile joined by a thin
+arrow, stacked with a vertical arrow under 1040) and Markets (a tonal
+two-column band with pill chips). Copy rules for this register: name
+streams and products, never counterparties or tonnages; every claim is
+about what the group does, not what it has done.
+
 ## 9. Images
 
 Six generated with Higgsfield gpt-image on 2026-09-29, prompted from the
