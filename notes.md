@@ -60,8 +60,10 @@ pack (export bans, landfill levies, stewardship schemes, producer
 responsibility); how we work in industry terms; the gate addressed to
 feedstock owners, technology suppliers, site partners and buyers. No
 company, supplier, buyer or figure from the pack appears on the page.
-The digital growth division left the cards; Golden Partners stays as a
-footer link.
+Digital growth was briefly dropped from the cards and put back the same
+day at Ben's request ("our strongest suit"): it is now the wide lead
+card, linking to goldenpartners.co, with a new generated landfill image
+for the cities and landfills card and the city image re-cut at 1400px.
 
 ## What the page contained (v2, 2026-09-29)
 

@@ -58,8 +58,9 @@ in teal.
 Container 1200px, 32px side padding (16px under 600). Tiles 128px, 96px
 under 1040, 64px under 600. Order: photographic hero (88vh, copy bottom
 left over a teal gradient), who / scope / values trio (3-up), full-width
-photo band (64vh), mission / vision pair on the tonal tile, division cards
-2 by 2 (4:3, photo with a bottom gradient and the title on it), how we work
+photo band (64vh), mission / vision pair on the tonal tile, division cards:
+one wide 21:9 lead card then 2 by 2 at 4:3 (photo with a bottom gradient
+and the title on it), how we work
 3-up on the dark tile, the gate 1fr:480px on the dark tile. The leadership
 tile was removed on 2026-09-29. Everything single column under 1040. The v1 deal-sheet stage,
 pipeline band and drawn sector visuals remain in the CSS but are no longer
@@ -152,9 +153,10 @@ four divisions and the mission, resized and stripped to WebP in the
 Higgsfield sandbox, then carried into the repository as verified base64
 slices (md5 checked). Hero 1400px (a coastal waste-to-energy plant at
 sunrise), band 1200px (young trees and solar over a foggy valley, plant on
-the ridge), four cards at 720px (biochar pouring from a hopper; a city
-seen from above at night; a coastal estate with greenhouses; a civic
-building at dusk). They are illustrations of the divisions, not
+the ridge), five cards: the city seen from above at night at 1400px as the wide
+lead card (digital growth), then at 720px biochar pouring from a hopper,
+a landfill and sorting site at dawn (generated 2026-09-29 for cities and
+landfills), a coastal estate with greenhouses, a civic building at dusk. They are illustrations of the divisions, not
 photographs of Shalev projects, and must not be captioned as such.
 
 ## 10. Known gaps
