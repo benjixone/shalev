@@ -39,18 +39,32 @@ across energy, waste, digital growth and land, between Israel, Europe and
 Africa; qualifies both sides before anyone meets; puts terms in writing
 before introductions; is paid when it closes.
 
-## What the page contains
+## What the page contains (v2, 2026-09-29)
 
-Nav, hero with the deal-sheet visual and the five qualifiers, pipeline band
-(five anonymized items), four sector cards each with a drawn visual, how we
-work (three steps on the dark tile), two operators, the ask (two fields plus
-Cal.com), footer with the privacy sentence.
+Nav over a photographic hero (one mission line, "Apply to work with us"),
+who we are / our scope / our values, a photo band, mission and vision, four
+division cards on generated images (energy and waste; digital growth, which
+links to goldenpartners.co; land and buildings; governments and capital),
+how we work (qualify, agree, execute), leadership (two operators), and the
+gate: "Every partner qualifies first", a two-field form that submits for
+review. Footer with the privacy sentence.
+
+v1 (2026-09-29, earlier the same day) had the deal-sheet visual, the five
+qualifiers, a pipeline band and drawn sector visuals. Ben asked for high
+level visuals, less text, vague and simple language, mission and vision,
+in the manner of the large energy and waste groups, and then named
+polygreen.eco as the style, wording and copy to match. He also rejected
+"Bring us a deal": people, contacts, deals and offers all qualify to work
+with the group. The v1 CSS blocks are still in `css/shalev.css` for reuse.
 
 ## Left out on purpose
 
 Counterparty names, funds and contacts (confidentiality clause). MAPM's
 economics. Any email address. Photos of anyone who has not approved one.
-Cities Alon is based in (unverified).
+Cities Alon is based in (unverified). In v2 also: every number, the
+pipeline, the Cal.com link, the fee ladder. Nothing on the page claims a
+project the group has not done; the images are labeled as illustrations
+in DESIGN.md and are generic scenes.
 
 ## Open
 
