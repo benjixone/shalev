@@ -106,6 +106,33 @@ in the first person plural and never sells. What was not taken: their
 sentences (nothing is copied), the uppercase headings (the chassis is
 sentence case), news and case studies (none to show yet).
 
+### Copy pass of 2026-09-29 (Ben: "this copy needs to be much better researched")
+
+Statements read before rewriting the trio and the mission / vision pair:
+Veolia (mission "Resource the World"; purpose "reconciling human progress
+with environmental protection"; "we develop and implement locally"),
+Reworld ("Others see waste. We see potential."), Renewi ("New life for
+used materials"; mission "to protect the world by breathing new life into
+used materials"), SUEZ ("we design, develop and deploy"), Orsted ("we
+provide countries, companies and communities with reliable energy"),
+Brookfield ("owner-operator approach", "operating the assets and
+businesses that drive the global economy"), Bechtel ("we deliver
+challenging projects that elevate standards of living"), ITOCHU
+(sampo-yoshi, "good for the seller, the buyer and society"), Polygreen
+("Nothing in excess"; vision "a viable place to live in, now and in the
+future"). The pattern: who we are names the kind of company and how it
+behaves; scope names the arenas; values are two or three principles;
+mission is what the company does and for whom; vision is the world it
+leads to. Every line on the page is drawn from the group's own record
+(operators who originate and execute; qualifiers of integrity, evidence,
+urgency; four divisions; three regions), not from any of the sources.
+
+Who we are: "Operators, not advisors." Scope: "Four divisions. One group."
+Values: "Nothing wasted." with integrity, evidence and scarcity as the
+three principles. Mission: "Bring the project, the partner and the capital
+together. Then see it through." Vision: "Cleaner cities, stronger markets,
+and value that stays where it is made."
+
 ## 9. Images
 
 Six generated with Higgsfield gpt-image on 2026-09-29, prompted from the
