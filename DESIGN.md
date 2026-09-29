@@ -60,8 +60,8 @@ under 1040, 64px under 600. Order: photographic hero (88vh, copy bottom
 left over a teal gradient), who / scope / values trio (3-up), full-width
 photo band (64vh), mission / vision pair on the tonal tile, division cards
 2 by 2 (4:3, photo with a bottom gradient and the title on it), how we work
-3-up on the dark tile, leadership 2-up, the gate 1fr:480px on the dark
-tile. Everything single column under 1040. The v1 deal-sheet stage,
+3-up on the dark tile, the gate 1fr:480px on the dark tile. The leadership
+tile was removed on 2026-09-29. Everything single column under 1040. The v1 deal-sheet stage,
 pipeline band and drawn sector visuals remain in the CSS but are no longer
 on the page.
 

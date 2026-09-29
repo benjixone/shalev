@@ -45,7 +45,7 @@ Nav over a photographic hero (one mission line, "Apply to work with us"),
 who we are / our scope / our values, a photo band, mission and vision, four
 division cards on generated images (energy and waste; digital growth, which
 links to goldenpartners.co; land and buildings; governments and capital),
-how we work (qualify, agree, execute), leadership (two operators), and the
+how we work (qualify, agree, execute), and the
 gate: "Every partner qualifies first", a two-field form that submits for
 review. Footer with the privacy sentence.
 
@@ -73,6 +73,12 @@ connected to this repository's `main` branch, with DNS on Cloudflare and
 registration kept at Namecheap; the steps, DNS records and checks
 are in [GO-LIVE.md](GO-LIVE.md). Hero title since 2026-09-29: "We turn
 waste into value." (option 3 of the finalist list, pending Alon's view).
+
+## Removed 2026-09-29
+
+The leadership tile (two operators, Ben's photo, Alon's initials) came out
+at Ben's request. The person-card CSS stays for an inner page later;
+`img/ben-lev.jpg` stays in the repository.
 
 ## Open
 
