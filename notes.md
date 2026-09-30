@@ -113,9 +113,8 @@ from deck.benjix.com: Ben's portrait from the deck (img/ben-lev.webp), his
 own figures (two exits, 150+ campaigns, $60M ad budget managed, six years in
 Israeli special forces, University of Pennsylvania), and the Google Partner
 and Meta Business Partner badges, captioned as the digital growth division's.
-Alon keeps an initials tile: Ben pasted his photo in chat but no file reached
-a repository. Save it as img/alon-shalvi.webp (square, 400 px) and swap the
-tile. Offices: Monaco, New York, Jerusalem (partners lead, apply section,
+Alon's portrait is img/alon-shalvi.jpg (400 px), recovered 2026-09-30 from
+the photo Ben pasted in chat. Offices: Monaco, New York, Jerusalem (partners lead, apply section,
 footer). Each partner card has a WhatsApp button; no email or phone number
 is printed on the page.
 
@@ -128,6 +127,6 @@ noindex tag. They use img/sig-lockup.png (the Shin with the Manrope wordmark, re
 
 ## Open
 
-Alon's sign-off on his bio and his portrait file (img/alon-shalvi.webp); the form endpoint;
+Alon's sign-off on his bio; the form endpoint;
 whether the fee ladder is Shalev's; whether the MAPM and Werkit names may
 appear (they do now, as company names only).
