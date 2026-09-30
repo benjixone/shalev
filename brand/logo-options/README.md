@@ -26,6 +26,26 @@ Round two (same day, Ben asked for stronger meanings):
   brass. Meaning: nothing wasted, the way nature packs seeds. Minimum 32 px;
   favicon uses 13 seeds.
 
+Round three (same day, Ben: "do more research"). Method: logo-designer skills
+on GitHub (op7418/logo-generator-skill, neonwatty/logo-designer-skill,
+luongnv89 logo-designer), the Chermayeff & Geismar & Haviv test (simple,
+appropriate, distinctive, memorable), then 18 true-vector explorations in
+Recraft V4.1 on Higgsfield (`recraft-explorations/r1..r18.svg`, brand colours
+locked). Six seeded the three marks below; each was rebuilt by hand on phi.
+
+- **G, The Cut.** Rough block, cut stone. Teal square side 1; brass square
+  side 1/phi turned 45 degrees, centred on the top-right corner; a clear
+  channel side/phi^5 between them. Seeds: r13, r15. Minimum 16 px.
+- **H, Horizon (recommended).** A circle of radius R split on the horizon by a
+  gap of R/phi^6; each half loses a bite of radius R/phi, centred on the
+  horizon and tangent to the rim, on opposite sides. Reads as S, as a sun on
+  still water (shalev = calm), and as a cycle turning teal into brass.
+  Seeds: r3, r17. Minimum 16 px.
+- **I, The Shin.** The Hebrew letter of Shalev. A W x W square, stroke W/phi^3,
+  so the two gaps are exactly stroke/phi. Teal prongs and base, brass middle
+  prong reaching the same top, one gap off the base. Seeds: r2, r14.
+  Minimum 16 px.
+
 Lockup: mark height = cap height x phi, gap = mark height / phi^2, clear space
 = mark height / phi^2. Wordmark Manrope 800 "Shalev", 600 "Group" in teal.
 Colours: teal #1F4E5F, brass #A87B2F, deep ink #0F2A33; on dark, teal #8EC3D0
