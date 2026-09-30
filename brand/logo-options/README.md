@@ -41,7 +41,7 @@ locked). Six seeded the three marks below; each was rebuilt by hand on phi.
   horizon and tangent to the rim, on opposite sides. Reads as S, as a sun on
   still water (shalev = calm), and as a cycle turning teal into brass.
   Seeds: r3, r17. Minimum 16 px.
-- **I, The Shin.** The Hebrew letter of Shalev. A W x W square, stroke W/phi^3,
+- **I, The Shin (chosen by Ben, 2026-09-30, now live).** The Hebrew letter of Shalev. A W x W square, stroke W/phi^3,
   so the two gaps are exactly stroke/phi. Teal prongs and base, brass middle
   prong reaching the same top, one gap off the base. Seeds: r2, r14.
   Minimum 16 px.
@@ -51,5 +51,6 @@ Lockup: mark height = cap height x phi, gap = mark height / phi^2, clear space
 Colours: teal #1F4E5F, brass #A87B2F, deep ink #0F2A33; on dark, teal #8EC3D0
 and brass #D9B46A.
 
-When Ben picks one, replace `img/mark.svg`, the inline nav and footer SVGs in
-`index.html`, and `img/mark-email.png` (used by the email signatures).
+Chosen: I, The Shin. It is live in `img/mark.svg` (favicon), the inline nav
+(on-dark colours) and footer SVGs in `index.html`, and `img/mark-email.png`
+(96 px, used by the email signatures).
