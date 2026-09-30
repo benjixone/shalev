@@ -124,7 +124,7 @@ MX to Resend inbound, eu-west-1; send.shalevgroup.com for sending). Email
 signatures live in signatures/ (ben.html and alon.html are copy pages,
 *.snippet.html are the raw tables for Resend templates), served at
 shalevgroup.com/signatures/ and kept out of search by robots.txt and a
-noindex tag. They use img/mark-email.png, now the Shin (ש), chosen 2026-09-30.
+noindex tag. They use img/sig-lockup.png (the Shin with the Manrope wordmark, rendered at 3x, shown at 171 x 30) since 2026-09-30; img/mark-email.png stays for any old pasted copies.
 
 ## Open
 
