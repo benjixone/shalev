@@ -106,8 +106,28 @@ The leadership tile (two operators, Ben's photo, Alon's initials) came out
 at Ben's request. The person-card CSS stays for an inner page later;
 `img/ben-lev.jpg` stays in the repository.
 
+## Partners, offices, signatures (2026-09-30)
+
+The partners section is back after Ben asked for it, now with credibility
+from deck.benjix.com: Ben's portrait from the deck (img/ben-lev.webp), his
+own figures (two exits, 150+ campaigns, $60M ad budget managed, six years in
+Israeli special forces, University of Pennsylvania), and the Google Partner
+and Meta Business Partner badges, captioned as the digital growth division's.
+Alon keeps an initials tile: Ben pasted his photo in chat but no file reached
+a repository. Save it as img/alon-shalvi.webp (square, 400 px) and swap the
+tile. Offices: Monaco, New York, Jerusalem (partners lead, apply section,
+footer). Each partner card has a WhatsApp button; no email or phone number
+is printed on the page.
+
+Email: shalevgroup.com sends and receives through Resend (verified 29 Sep:
+MX to Resend inbound, eu-west-1; send.shalevgroup.com for sending). Email
+signatures live in signatures/ (ben.html and alon.html are copy pages,
+*.snippet.html are the raw tables for Resend templates), served at
+shalevgroup.com/signatures/ and kept out of search by robots.txt and a
+noindex tag. They use img/mark-email.png; swap it when the logo is chosen.
+
 ## Open
 
-Alon's sign-off on his bio and a portrait; the form endpoint;
+Alon's sign-off on his bio and his portrait file (img/alon-shalvi.webp); the form endpoint;
 whether the fee ladder is Shalev's; whether the MAPM and Werkit names may
 appear (they do now, as company names only).
