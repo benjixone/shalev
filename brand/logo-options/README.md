@@ -13,6 +13,19 @@ https://claude.ai/artifact/LCYWnHRMYPxC3w48dBLVfC (private to Ben until shared).
   in a square of side 1/phi, the mark fits 2 by 2, corner radius side/phi^4,
   overlap in deep ink #0F2A33. Minimum 16 px.
 
+Round two (same day, Ben asked for stronger meanings):
+
+- **D, The Gate.** A doorway: outer arch a 1 x phi golden rectangle with a
+  semicircular head, uniform frame width/phi^4, teal frame, brass door.
+  Meaning: every partner qualifies first. Minimum 16 px.
+- **E, Still Water.** Shalev means calm in Hebrew. A brass half sun of
+  radius 1 on a teal horizon, three reflection bars, the first R/phi^4 tall,
+  each next 1/phi as long and thick, gaps R/phi^5. Minimum 20 px.
+- **F, The Seed.** Sunflower phyllotaxis: seed k at angle k x 137.5 degrees
+  (the golden angle) and radius c x sqrt(k), 34 seeds with the inner 13
+  brass. Meaning: nothing wasted, the way nature packs seeds. Minimum 32 px;
+  favicon uses 13 seeds.
+
 Lockup: mark height = cap height x phi, gap = mark height / phi^2, clear space
 = mark height / phi^2. Wordmark Manrope 800 "Shalev", 600 "Group" in teal.
 Colours: teal #1F4E5F, brass #A87B2F, deep ink #0F2A33; on dark, teal #8EC3D0
